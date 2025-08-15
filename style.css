@@ -1,0 +1,130 @@
+body {
+    background: black;
+    font: georgia;
+    color: white;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table {
+    display: inline;
+    width: 100%;
+    position: sticky;
+    margin: 20px 0;
+    border: 2px solid white;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+#logo {
+    justify-content: left;
+    border: 2px solid white;
+    height: 20px;
+    padding: 10px;
+    margin-right: 0;
+    border-radius: 15px;
+}
+
+.drop {
+    justify-content: right;
+    border: 2px solid white;
+    padding: 10px;
+    font-size: 25px;
+    height: 20px;
+    border-radius: 15px;
+}
+
+select {
+    background-color: black;
+    color: white;
+    font: georgia;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+h1 {
+    border: 3px solid white;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+p {
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 10px auto;
+    font-size: 18px;
+    max-width: 800px;
+}
+
+.projects {
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 25px;
+    margin: 15px 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 75%;
+}
+
+.logo-center img {
+    max-width: 85%;
+    height: 60%;
+    display: block;
+}
+
+.projects ul li {
+    margin-bottom: 20px;
+}
+
+.projects ul li strong {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.header {
+    margin-top: 20px;
+}
+
+.top-right-logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.top-right-logo img {
+    width: 230px;
+    height: 70px;
+}
+
+.linkedin a {
+    text-decoration: underline;
+}
+
+.linkedin h2 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
